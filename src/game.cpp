@@ -43,6 +43,7 @@ uint Game::choose_random_player() {
     return bounded_rand(players.size());
 }
 
+void Game::start() {}
 void Game::stop(Player player) {}
 
 void Game::reset() {}

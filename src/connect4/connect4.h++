@@ -1,7 +1,7 @@
 #include <src/game.h++>
 
 
-class ConnectFour : Game {
+class ConnectFour : public Game {
     
     protected:
         uint n_players = 2;

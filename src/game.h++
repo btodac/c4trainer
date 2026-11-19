@@ -19,7 +19,6 @@ class Game {
         ~Game();
 
         void addPlayer(Player player);
-
         void start();
         void stop(Player player);
         void reset();
@@ -29,9 +28,6 @@ class Game {
 
         uint choose_random_player();
         std::vector<Player> players{};
-
-    private:
-        
 };
 
 

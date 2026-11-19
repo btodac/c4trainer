@@ -26,7 +26,7 @@ void ConnectFour::play() {
 
 bool ConnectFour::is_valid_move(GameState state, uint move) {};
 void ConnectFour::update_board(uint player, uint move) {};
-bool ConnectFour::has_connected_four(GameState state) {return false;};
+bool ConnectFour::has_connected_four(GameState state) {return true;};
 
 
 void ConnectFour::stop(Player player) {};
